@@ -9,8 +9,8 @@ CORS(app)
 
 minio_client = Minio(
     endpoint='localhost:9000',
-    access_key='owner',
-    secret_key='8121501222@Krishna',
+    access_key='xxxxxxxxxxxxxx',
+    secret_key='xxxxxxxxxxxxxx',
     secure=False 
 )
 
