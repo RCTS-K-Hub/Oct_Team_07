@@ -58,7 +58,7 @@ function FileUpload() {
       <h1>File Upload</h1>
       <input type="file" onChange={handleFileChange} />
       <button style={buttonStyle} onClick={handleUpload}>Upload File</button>
-      {errorMessage && <p style={{ color: "blue" }}>{errorMessage}</p>}
+      {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
     </div>
   );
 }
